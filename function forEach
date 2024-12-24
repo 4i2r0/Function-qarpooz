@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+
+<script>
+let numb=[69,75,85,96,115]
+numb.forEach(Qarpooz)
+function Qarpooz (value)
+{if (value <= 85)
+{console.log("boobs is smaller than qarpooz");}else
+{console.log("boobs is greater than qarpooz");}}
+
+</script>
+
+</body>
+</html> 
