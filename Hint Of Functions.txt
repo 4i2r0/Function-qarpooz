@@ -1,0 +1,18 @@
+shift = removes first element of the array
+
+pop = removes lasts element of the array
+
+unshift = adds an element to the first place of the array
+
+push = adds an element to the last place of the array
+
+slice = pick / removes the selected elements in range 
+exp. cars.slice(1,4)
+ 
+
+splice = can add and remove and replace element wherever desired 
+exp. cars.splice(1,0,"Persia") this wont remove an element but adds Persia to array
+exp. cars.splice(1,1,"Persia") this will remove the element numb1 & adds Persia to array
+exp. cars.splice(1,2,"Persia") this will remove the first and second element adds Persia to array
+
+indexOf & includes both need the search element itself not the function way
