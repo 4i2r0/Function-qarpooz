@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+ 
+
+<script>
+let numb=[4,5,18,15,9,11]
+let newnumb=numb.map(succubus)
+function succubus (value)
+{
+return (value < 10 ? value+3 : value + 5 )
+}
+console.log(newnumb)
+</script>
+
+</body>
+</html> 
