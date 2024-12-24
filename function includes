@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+
+<script>
+let sizes=[69,75,85,96,115]
+let breasts=sizes.includes(85)
+function boobs(value)
+{
+return value =85 
+}
+console.log(breasts)
+</script>
+
+</body>
+</html> 
