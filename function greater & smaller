@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+ 
+
+<script>
+let numb=[69,75,85,95,115]
+let greater=[]
+let smaller=[]
+numb.forEach(Qarpooz)
+function Qarpooz (value)
+{
+if(value >= 85)
+{
+greater.push(value)}
+else{smaller.push(value)}}
+console.log(smaller)
+console.log(greater)
+</script>
+
+</body>
+</html> 
