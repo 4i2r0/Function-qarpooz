@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The at() Method</h2>
+<p>The at() method returns an indexed element from an array:</p>
+<p id="demo"></p>
+<script>
+//.با توجه به آرایه داده شده برنامه ای بنویسید که مشخصات ماشین مشکی رو نشان بدهد2
+let cars = [
+{id: 1 , name:"bmw" , color:"black" , price:30000 , model:2022},
+{id: 2 , name:"benz" , color:"white" , price:40000 , model:2023},
+{id: 3 , name:"kia" , color:"white" , price:20000 , model:2024}
+];
+let cart=(value)=>{
+return value.color==="black"
+}
+let result=cars.filter(cart)
+cars=result
+console.log(cars)
+</script>
+</body>
+</html>
